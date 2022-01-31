@@ -1,0 +1,484 @@
+Index: test-output/report.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>\r\n\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<meta charset='utf-8' /> \r\n\t<meta name='description' content='' />\r\n\t<meta name='robots' content='noodp, noydir' />\r\n\t<meta name='viewport' content='width=device-width, initial-scale=1' />\r\n\t<meta id=\"timeStampFormat\" name=\"timeStampFormat\" content='MMM d, yyyy hh:mm:ss a'/>\r\n\t\r\n\t<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css' />\r\n\t<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\" />\r\n\t<link href='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/css/extent.css' type='text/css' rel='stylesheet' />\r\n\t\r\n\t<title>ExtentReports</title>\r\n\r\n\t<style type='text/css'>\r\n\t\t/* json-tree */\r\n\t\t.jstBracket,.jstComma,.jstValue{white-space:pre-wrap}.jstValue{font-size:10px;font-weight:400;font-family:\"Lucida Console\",Monaco,monospace}.jstProperty{color:#666;word-wrap:break-word}.jstBool{color:#2525CC}.jstNum{color:#D036D0}.jstNull{color:gray}.jstStr{color:#2DB669}.jstFold:after{content:' -';cursor:pointer}.jstExpand{white-space:normal}.jstExpand:after{content:' +';cursor:pointer}.jstFolded{white-space:normal!important}.jstHiddenBlock{display:none}\r\n\t</style>\r\n\t\r\n\t<script type=\"text/javascript\">\r\n\t\t/*! json-tree - v0.2.2 - 2017-09-25, MIT LICENSE */\r\n\t\tvar JSONTree=function(){var n={\"&\":\"&amp;\",\"<\":\"&lt;\",\">\":\"&gt;\",'\"':\"&quot;\",\"'\":\"&#x27;\",\"/\":\"&#x2F;\"},t=0,r=0;this.create=function(n,t){return r+=1,N(u(n,0,!1),{class:\"jstValue\"})};var e=function(t){return t.replace(/[&<>'\"]/g,function(t){return n[t]})},s=function(){return r+\"_\"+t++},u=function(n,t,r){if(null===n)return f(r?t:0);switch(typeof n){case\"boolean\":return l(n,r?t:0);case\"number\":return i(n,r?t:0);case\"string\":return o(n,r?t:0);default:return n instanceof Array?a(n,t,r):c(n,t,r)}},c=function(n,t,r){var e=s(),u=Object.keys(n).map(function(r){return j(r,n[r],t+1,!0)}).join(m()),c=[g(\"{\",r?t:0,e),N(u,{id:e}),p(\"}\",t)].join(\"\\n\");return N(c,{})},a=function(n,t,r){var e=s(),c=n.map(function(n){return u(n,t+1,!0)}).join(m());return[g(\"[\",r?t:0,e),N(c,{id:e}),p(\"]\",t)].join(\"\\n\")},o=function(n,t){var r=e(JSON.stringify(n));return N(v(r,t),{class:\"jstStr\"})},i=function(n,t){return N(v(n,t),{class:\"jstNum\"})},l=function(n,t){return N(v(n,t),{class:\"jstBool\"})},f=function(n){return N(v(\"null\",n),{class:\"jstNull\"})},j=function(n,t,r){var s=v(e(JSON.stringify(n))+\": \",r),c=N(u(t,r,!1),{});return N(s+c,{class:\"jstProperty\"})},m=function(){return N(\",\\n\",{class:\"jstComma\"})},N=function(n,t){return d(\"span\",t,n)},d=function(n,t,r){return\"<\"+n+Object.keys(t).map(function(n){return\" \"+n+'=\"'+t[n]+'\"'}).join(\"\")+\">\"+r+\"</\"+n+\">\"},g=function(n,t,r){return N(v(n,t),{class:\"jstBracket\"})+N(\"\",{class:\"jstFold\",onclick:\"JSONTree.toggle('\"+r+\"')\"})};this.toggle=function(n){var t=document.getElementById(n),r=t.parentNode,e=t.previousElementSibling;\"\"===t.className?(t.className=\"jstHiddenBlock\",r.className=\"jstFolded\",e.className=\"jstExpand\"):(t.className=\"\",r.className=\"\",e.className=\"jstFold\")};var p=function(n,t){return N(v(n,t),{})},v=function(n,t){return Array(2*t+1).join(\" \")+n};return this}();\r\n\t</script>\r\n</head>\r\n\t<body class='extent standard default hide-overflow '>\r\n\t\t<div id='theme-selector' alt='Click to toggle theme. To enable by default, use theme configuration.' title='Click to toggle theme. To enable by default, use theme configuration.'>\r\n\t\t\t<span><i class='material-icons'>desktop_windows</i></span>\r\n\t\t</div>\r\n<nav>\r\n\t<div class=\"nav-wrapper\">\r\n\t\t<a href=\"#!\" class=\"brand-logo black\"><img src=\"https://cdn.rawgit.com/extent-framework/extent-github-cdn/d74480e/commons/img/logo.png\"></a>\r\n\t\t<!-- slideout menu -->\r\n\t\t<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>\r\n\t\t\t<li class='waves-effect active'><a href='#!' view='test-view' onclick=\"configureView(0);chartsView('test');\"><i class='material-icons'>dashboard</i></a></li>\r\n\t\t\t\t\t\t<li class='waves-effect'><a href='#!' onclick=\"configureView(-1);chartsView('dashboard');\" view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>\r\n\t\t</ul>\r\n\t\t<!-- report name -->\r\n\t\t<span class='report-name'>Vytrack Smoke Test</span>\r\n\t\t<!-- report headline -->\r\n\t\t<span class='report-headline'></span>\r\n\t\t<!-- nav-right -->\r\n\t\t<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>\r\n\t\t\t<a href='#!'>\r\n\t\t\t<span class='label blue darken-3 suite-start-time'>Jan 30, 2022 06:42:20 PM</span>\r\n\t\t\t</a>\r\n\t\t</ul>\r\n\t</div>\r\n</nav>\t\t<!-- container -->\r\n\t\t<div class='container'>\r\n<div id='test-view' class='view'>\r\n\t<section id='controls'>\r\n\t\t<div class='controls grey lighten-4'>\r\n\t\t\t<!-- test toggle -->\r\n\t\t\t<div class='chip transparent'>\r\n\t\t\t\t<a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true' data-beloworigin='true' data-hover='true' href='#'>\r\n\t\t\t\t<i class='material-icons'>warning</i> Status\r\n\t\t\t\t</a>\r\n\t\t\t\t<ul id='tests-toggle' class='dropdown-content'>\r\n\t\t\t\t\t\t\t\t\t\t<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>\r\n\t\t\t\t\t<li class='divider'></li>\r\n\t\t\t\t\t<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t\t<!-- test toggle -->\r\n\t\t\t<!-- category toggle -->\r\n\t\t\t<!-- category toggle -->\r\n\t\t\t<!-- clear filters -->\r\n\t\t\t<div class='chip transparent hide'>\r\n\t\t\t\t<a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>\r\n\t\t\t\t<i class='material-icons'>close</i> Clear\r\n\t\t\t\t</a>\r\n\t\t\t</div>\r\n\t\t\t<!-- clear filters -->\r\n\t\t\t<!-- enable dashboard -->\r\n\t\t\t<div id='toggle-test-view-charts' class='chip transparent'>\r\n\t\t\t\t<a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>\r\n\t\t\t\t<i class='material-icons'>track_changes</i> Dashboard\r\n\t\t\t\t</a>\r\n\t\t\t</div>\r\n\t\t\t<!-- enable dashboard -->\r\n\t\t\t<!-- search -->\r\n\t\t\t<div class='chip transparent' alt='Search Tests' title='Search Tests'>\r\n\t\t\t\t<a href=\"#\" class='search-div'>\r\n\t\t\t\t<i class='material-icons'>search</i> Search\r\n\t\t\t\t</a>\r\n\t\t\t\t<div class='input-field left hide'>\r\n\t\t\t\t\t<input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<!-- search -->\r\n\t\t</div>\r\n\t</section>\r\n<div id='test-view-charts' class='subview-full'>\r\n    <div id='charts-row' class='row nm-v nm-h'>\r\n        <div class='col s12 m12 l12 np-h'>\r\n            <div class='card-panel nm-v'>\r\n                <div class='left panel-name'>Tests</div>\r\n                <div class='chart-box' style=\"max-height:94px;\">\r\n                    <canvas id='parent-analysis' width='90' height='70'></canvas>\r\n                </div>\r\n                <div class='block text-small'>\r\n                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>6</span> test(s) passed</span>\r\n                </div>\r\n                <div class='block text-small'>\r\n                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n    <div id=\"timeline-chart\" class=\"row nm-v nm-h\">\r\n        <div class=\"col s12 m12 l12 np-h\">\r\n            <div class=\"card-panel\">\r\n                <div class='left panel-name'>Timeline (seconds)</div>\r\n                <div class=\"chart-box\" style=\"width:98%;max-height:145px;\">\r\n                    <canvas id=\"timeline\" height=\"120\"></canvas>\r\n                </div>\r\n            </div>\r\n        </div>\r\n    </div>\r\n</div>\t<div class='subview-left left'>\r\n\t\t<div class='view-summary'>\r\n\t\t\t<ul id='test-collection' class='test-collection'>\r\n\t\t\t\t<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>\r\n\t\t\t\t\t<div class='test-heading'>\r\n\t\t\t\t\t\t<span class='test-name'>Contact Info Verification</span>\r\n\t\t\t\t\t\t<span class='test-time'>Jan 30, 2022 06:42:34 PM</span>\r\n\t\t\t\t\t\t<span class='test-status right pass'>pass</span>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class='test-content hide'>\r\n<div class='test-time-info'>\r\n\t<span class='label start-time'>Jan 30, 2022 06:42:34 PM</span>\r\n\t<span class='label end-time'>Jan 30, 2022 06:42:52 PM</span>\r\n\t<span class='label time-taken grey lighten-1 white-text'>0h 0m 17s+460ms</span>\r\n</div>\r\n<div class='test-steps'>\r\n\t<table class='bordered table-results'>\r\n\t\t<thead>\r\n\t\t\t<tr>\r\n\t\t\t\t<th>Status</th>\r\n\t\t\t\t<th>Timestamp</th>\r\n\t\t\t\t<th>Details</th>\r\n\t\t\t</tr>\r\n\t\t</thead>\r\n\t\t<tbody>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:42:34 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tLog in as a Store Manager\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:42:41 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tNavigate to --> Activities -> Calendar Events\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:42:51 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tVerify that page subtitle 'Options' is displayed\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='pass'>\r\n\t\t\t\t<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>\r\n\t\t\t\t<td class='timestamp'>6:42:52 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tPASS\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t</tbody>\r\n\t</table>\r\n</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>\r\n\t\t\t\t\t<div class='test-heading'>\r\n\t\t\t\t\t\t<span class='test-name'>Contact Info Verification</span>\r\n\t\t\t\t\t\t<span class='test-time'>Jan 30, 2022 06:42:58 PM</span>\r\n\t\t\t\t\t\t<span class='test-status right pass'>pass</span>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class='test-content hide'>\r\n<div class='test-time-info'>\r\n\t<span class='label start-time'>Jan 30, 2022 06:42:58 PM</span>\r\n\t<span class='label end-time'>Jan 30, 2022 06:43:15 PM</span>\r\n\t<span class='label time-taken grey lighten-1 white-text'>0h 0m 16s+320ms</span>\r\n</div>\r\n<div class='test-steps'>\r\n\t<table class='bordered table-results'>\r\n\t\t<thead>\r\n\t\t\t<tr>\r\n\t\t\t\t<th>Status</th>\r\n\t\t\t\t<th>Timestamp</th>\r\n\t\t\t\t<th>Details</th>\r\n\t\t\t</tr>\r\n\t\t</thead>\r\n\t\t<tbody>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:42:58 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tLog in as a Store Manager\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:43:05 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tNavigate to --> Activities -> Calendar Events\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:43:14 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tVerify that page number is equals to \"1\"\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='pass'>\r\n\t\t\t\t<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>\r\n\t\t\t\t<td class='timestamp'>6:43:15 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tPASS\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t</tbody>\r\n\t</table>\r\n</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>\r\n\t\t\t\t\t<div class='test-heading'>\r\n\t\t\t\t\t\t<span class='test-name'>Contact Info Verification</span>\r\n\t\t\t\t\t\t<span class='test-time'>Jan 30, 2022 06:43:21 PM</span>\r\n\t\t\t\t\t\t<span class='test-status right pass'>pass</span>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class='test-content hide'>\r\n<div class='test-time-info'>\r\n\t<span class='label start-time'>Jan 30, 2022 06:43:21 PM</span>\r\n\t<span class='label end-time'>Jan 30, 2022 06:43:35 PM</span>\r\n\t<span class='label time-taken grey lighten-1 white-text'>0h 0m 14s+204ms</span>\r\n</div>\r\n<div class='test-steps'>\r\n\t<table class='bordered table-results'>\r\n\t\t<thead>\r\n\t\t\t<tr>\r\n\t\t\t\t<th>Status</th>\r\n\t\t\t\t<th>Timestamp</th>\r\n\t\t\t\t<th>Details</th>\r\n\t\t\t</tr>\r\n\t\t</thead>\r\n\t\t<tbody>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:43:21 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tLog in as a Store Manager\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:43:27 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tNavigate to --> Activities -> Calendar Events\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:43:35 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tVerify that view per page number is equals to 25\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='pass'>\r\n\t\t\t\t<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>\r\n\t\t\t\t<td class='timestamp'>6:43:35 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tPASS\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t</tbody>\r\n\t</table>\r\n</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>\r\n\t\t\t\t\t<div class='test-heading'>\r\n\t\t\t\t\t\t<span class='test-name'>Contact Info Verification</span>\r\n\t\t\t\t\t\t<span class='test-time'>Jan 30, 2022 06:43:41 PM</span>\r\n\t\t\t\t\t\t<span class='test-status right pass'>pass</span>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class='test-content hide'>\r\n<div class='test-time-info'>\r\n\t<span class='label start-time'>Jan 30, 2022 06:43:41 PM</span>\r\n\t<span class='label end-time'>Jan 30, 2022 06:44:11 PM</span>\r\n\t<span class='label time-taken grey lighten-1 white-text'>0h 0m 30s+505ms</span>\r\n</div>\r\n<div class='test-steps'>\r\n\t<table class='bordered table-results'>\r\n\t\t<thead>\r\n\t\t\t<tr>\r\n\t\t\t\t<th>Status</th>\r\n\t\t\t\t<th>Timestamp</th>\r\n\t\t\t\t<th>Details</th>\r\n\t\t\t</tr>\r\n\t\t</thead>\r\n\t\t<tbody>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:43:41 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tLog in as a Store Manager\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:43:47 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tNavigate to --> Activities -> Calendar Events\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:43:55 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tVerify that number of calendar events (rows in the table) is equals to number of records\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='pass'>\r\n\t\t\t\t<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>\r\n\t\t\t\t<td class='timestamp'>6:44:11 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tPASS\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t</tbody>\r\n\t</table>\r\n</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>\r\n\t\t\t\t\t<div class='test-heading'>\r\n\t\t\t\t\t\t<span class='test-name'>Contact Info Verification</span>\r\n\t\t\t\t\t\t<span class='test-time'>Jan 30, 2022 06:44:19 PM</span>\r\n\t\t\t\t\t\t<span class='test-status right pass'>pass</span>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class='test-content hide'>\r\n<div class='test-time-info'>\r\n\t<span class='label start-time'>Jan 30, 2022 06:44:19 PM</span>\r\n\t<span class='label end-time'>Jan 30, 2022 06:44:39 PM</span>\r\n\t<span class='label time-taken grey lighten-1 white-text'>0h 0m 20s+561ms</span>\r\n</div>\r\n<div class='test-steps'>\r\n\t<table class='bordered table-results'>\r\n\t\t<thead>\r\n\t\t\t<tr>\r\n\t\t\t\t<th>Status</th>\r\n\t\t\t\t<th>Timestamp</th>\r\n\t\t\t\t<th>Details</th>\r\n\t\t\t</tr>\r\n\t\t</thead>\r\n\t\t<tbody>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:44:19 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tLog in as a Store Manager\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:44:29 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tNavigate to --> Activities -> Calendar Events\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:44:38 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tVerify that all calendar events were selected\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='pass'>\r\n\t\t\t\t<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>\r\n\t\t\t\t<td class='timestamp'>6:44:39 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tPASS\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t</tbody>\r\n\t</table>\r\n</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</li>\r\n\t\t\t\t<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>\r\n\t\t\t\t\t<div class='test-heading'>\r\n\t\t\t\t\t\t<span class='test-name'>Contact Info Verification</span>\r\n\t\t\t\t\t\t<span class='test-time'>Jan 30, 2022 06:44:46 PM</span>\r\n\t\t\t\t\t\t<span class='test-status right pass'>pass</span>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t\t<div class='test-content hide'>\r\n<div class='test-time-info'>\r\n\t<span class='label start-time'>Jan 30, 2022 06:44:46 PM</span>\r\n\t<span class='label end-time'>Jan 30, 2022 06:45:12 PM</span>\r\n\t<span class='label time-taken grey lighten-1 white-text'>0h 0m 26s+331ms</span>\r\n</div>\r\n<div class='test-steps'>\r\n\t<table class='bordered table-results'>\r\n\t\t<thead>\r\n\t\t\t<tr>\r\n\t\t\t\t<th>Status</th>\r\n\t\t\t\t<th>Timestamp</th>\r\n\t\t\t\t<th>Details</th>\r\n\t\t\t</tr>\r\n\t\t</thead>\r\n\t\t<tbody>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:44:46 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tLog in as a Store Manager\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:44:53 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tNavigate to --> Activities -> Calendar Events\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:45:02 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tSelect 'Testers meeting'\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='info'>\r\n\t\t\t\t<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>\r\n\t\t\t\t<td class='timestamp'>6:45:10 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tVerify that following data is displayed\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class='log' status='pass'>\r\n\t\t\t\t<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>\r\n\t\t\t\t<td class='timestamp'>6:45:12 PM</td>\r\n\t\t\t\t<td class='step-details'>\r\n\t\t\t\t\t\tPASS\r\n\t\t\t\t\t\r\n\t\t\t\t</td>\r\n\t\t\t</tr>\r\n\t\t</tbody>\r\n\t</table>\r\n</div>\r\n\t\t\t\t\t</div>\r\n\t\t\t\t</li>\r\n\t\t\t</ul>\r\n\t\t</div>\r\n\t</div>\r\n\t<!-- subview left -->\r\n\t<div class='subview-right left'>\r\n\t\t<div class='view-summary'>\r\n\t\t\t<div id='step-filters' class=\"right sr-filters\">\r\n\t\t\t\t<a class=\"btn-floating waves-effect waves-light green\" status=\"pass\" alt=\"pass\" title=\"pass\"><i class=\"material-icons\">check_circle</i></a>\r\n\t\t\t\t<a class=\"btn-floating waves-effect waves-light red\" status=\"fail\" alt=\"fail\" title=\"fail\"><i class=\"material-icons\">cancel</i></a>\r\n\t\t\t\t<a class=\"btn-floating waves-effect waves-light red darken-4\" status=\"fatal\" alt=\"fatal\" title=\"fatal\"><i class=\"material-icons\">cancel</i></a>\r\n\t\t\t\t<a class=\"btn-floating waves-effect waves-light pink text-lighten-1\" status=\"error\" alt=\"error\" title=\"error\"><i class=\"material-icons\">error</i></a>\r\n\t\t\t\t<a class=\"btn-floating waves-effect waves-light orange\" alt=\"warning\" status=\"warning\" title=\"warning\"><i class=\"material-icons\">warning</i></a>\r\n\t\t\t\t<a class=\"btn-floating waves-effect waves-light teal\" status=\"skip\" alt=\"skip\" title=\"skip\"><i class=\"material-icons\">redo</i></a>\r\n\t\t\t\t<a class=\"btn-floating waves-effect waves-light grey\" status=\"clear\" alt=\"Clear filters\" title=\"Clear filters\"><i class=\"material-icons\">clear</i></a>\r\n\t\t\t</div>\r\n\t\t\t<h5 class='test-name'></h5>\r\n\t\t</div>\r\n\t</div>\r\n\t<!-- subview right -->\r\n</div>\r\n<!-- test view --><!-- category view --><!-- exception view --><div id='dashboard-view' class='view hide'>\r\n\t<div class='card-panel transparent np-v'>\r\n\t\t<h5>Dashboard</h5>\r\n\r\n\t\t<div class='row'>\r\n\t\t\t<div class='col s2'>\r\n\t\t\t\t<div class='card-panel r'>\r\n\t\t\t\t\tTests\r\n\t\t\t\t\t<div class='panel-lead'>6</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div class='col s2'>\r\n\t\t\t\t<div class='card-panel r'>\r\n\t\t\t\t\tSteps\r\n\t\t\t\t\t<div class='panel-lead'>0</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div class='col s2'>\r\n\t\t\t\t<div class='card-panel r'>\r\n\t\t\t\t\tStart\r\n\t\t\t\t\t<div class='panel-lead'>Jan 30, 2022 06:42:20 PM</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div class='col s2'>\r\n\t\t\t\t<div class='card-panel r'>\r\n\t\t\t \t\tEnd\r\n\t\t\t \t\t<div class='panel-lead'>Jan 30, 2022 06:45:14 PM</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div class='col s2'>\r\n\t\t\t\t<div class='card-panel r'>\r\n\t\t\t\t\tTime Taken\r\n\t\t\t\t\t<div class='panel-lead'>0h 2m 54s+283ms</div>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t\t<div class='col s4'>\r\n\t\t\t\t<div class='card-panel dashboard-environment'>\r\n\t\t\t\t\t<span class='right label cyan white-text'>Environment</span><p>&nbsp;</p>\r\n\t\t\t\t\t\r\n\t\t\t\t\t<table>\r\n\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t<th>Name</th>\r\n\t\t\t\t\t\t\t<th>Value</th>\r\n\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t<td>Environment</td>\r\n\t\t\t\t\t\t\t\t<td>QA</td>\r\n\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t<td>Browser</td>\r\n\t\t\t\t\t\t\t\t<td>chrome-headless</td>\r\n\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t\t\t<tr>\r\n\t\t\t\t\t\t\t\t<td>OS</td>\r\n\t\t\t\t\t\t\t\t<td>Windows 10</td>\r\n\t\t\t\t\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t\t\t</div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</div>\r\n</div>\r\n<!-- dashboard view -->\r\n<!-- testrunner-logs view -->\t\t</div>\r\n\t\t<!-- container -->\r\n\t\t<script>\r\n\t\t\tvar statusGroup = {\r\n                parentCount: 6,\r\n\t\t\t\tpassParent: 6,\r\n\t\t\t\tfailParent: 0,\r\n\t\t\t\tfatalParent: 0,\r\n\t\t\t\terrorParent: 0,\r\n\t\t\t\twarningParent: 0,\r\n\t\t\t\tskipParent: 0,\r\n\t\t\t\texceptionsParent: 0,\r\n\t\t\t\tchildCount: 0,\r\n\t\t\t\tpassChild: 0,\r\n\t\t\t\tfailChild: 0,\r\n\t\t\t\tfatalChild: 0,\r\n\t\t\t\terrorChild: 0,\r\n\t\t\t\twarningChild: 0,\r\n\t\t\t\tskipChild: 0,\r\n\t\t\t\tinfoChild: 0,\r\n\t\t\t\tdebugChild: 0,\r\n\t\t\t\texceptionsChild: 0,\r\n\t\t\t\tgrandChildCount: 0,\r\n\t\t\t\tpassGrandChild: 0,\r\n\t\t\t\tfailGrandChild: 0,\r\n\t\t\t\tfatalGrandChild: 0,\r\n\t\t\t\terrorGrandChild: 0,\r\n\t\t\t\twarningGrandChild: 0,\r\n\t\t\t\tskipGrandChild: 0,\r\n\t\t\t\tinfoGrandChild: 0,\r\n\t\t\t\tdebugGrandChild: 0,\r\n\t\t\t\texceptionsGrandChild: 0,\r\n\t\t\t};\r\n\t\t</script>\r\n\t\t<script>\r\n\t\t\tvar timeline = {\r\n\t\t\t        \"Contact Info Verification\":17.46,\"Contact Info Verification\":16.32,\"Contact Info Verification\":14.204,\"Contact Info Verification\":30.505,\"Contact Info Verification\":20.561,\"Contact Info Verification\":26.331\r\n\t\t\t};\r\n\t\t</script>\r\n\t\t<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>\r\n\t\t<script type='text/javascript'>\r\n\t\t</script>\r\n\t</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/test-output/report.html b/test-output/report.html
+--- a/test-output/report.html	(revision daa89b09e1b2a7a3768de89ff06ca77291f14d8f)
++++ b/test-output/report.html	(date 1643624081659)
+@@ -44,7 +44,7 @@
+ 		<!-- nav-right -->
+ 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+ 			<a href='#!'>
+-			<span class='label blue darken-3 suite-start-time'>Jan 30, 2022 06:42:20 PM</span>
++			<span class='label blue darken-3 suite-start-time'>Jan 31, 2022 01:12:18 PM</span>
+ 			</a>
+ 		</ul>
+ 	</div>
+@@ -126,14 +126,14 @@
+ 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
+ 					<div class='test-heading'>
+ 						<span class='test-name'>Contact Info Verification</span>
+-						<span class='test-time'>Jan 30, 2022 06:42:34 PM</span>
++						<span class='test-time'>Jan 31, 2022 01:12:29 PM</span>
+ 						<span class='test-status right pass'>pass</span>
+ 					</div>
+ 					<div class='test-content hide'>
+ <div class='test-time-info'>
+-	<span class='label start-time'>Jan 30, 2022 06:42:34 PM</span>
+-	<span class='label end-time'>Jan 30, 2022 06:42:52 PM</span>
+-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 17s+460ms</span>
++	<span class='label start-time'>Jan 31, 2022 01:12:29 PM</span>
++	<span class='label end-time'>Jan 31, 2022 01:12:42 PM</span>
++	<span class='label time-taken grey lighten-1 white-text'>0h 0m 12s+882ms</span>
+ </div>
+ <div class='test-steps'>
+ 	<table class='bordered table-results'>
+@@ -147,7 +147,7 @@
+ 		<tbody>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:42:34 PM</td>
++				<td class='timestamp'>1:12:29 PM</td>
+ 				<td class='step-details'>
+ 						Log in as a Store Manager
+ 					
+@@ -155,7 +155,7 @@
+ 			</tr>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:42:41 PM</td>
++				<td class='timestamp'>1:12:34 PM</td>
+ 				<td class='step-details'>
+ 						Navigate to --> Activities -> Calendar Events
+ 					
+@@ -163,7 +163,7 @@
+ 			</tr>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:42:51 PM</td>
++				<td class='timestamp'>1:12:42 PM</td>
+ 				<td class='step-details'>
+ 						Verify that page subtitle 'Options' is displayed
+ 					
+@@ -171,7 +171,7 @@
+ 			</tr>
+ 			<tr class='log' status='pass'>
+ 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+-				<td class='timestamp'>6:42:52 PM</td>
++				<td class='timestamp'>1:12:42 PM</td>
+ 				<td class='step-details'>
+ 						PASS
+ 					
+@@ -185,14 +185,14 @@
+ 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='2'>
+ 					<div class='test-heading'>
+ 						<span class='test-name'>Contact Info Verification</span>
+-						<span class='test-time'>Jan 30, 2022 06:42:58 PM</span>
++						<span class='test-time'>Jan 31, 2022 01:12:48 PM</span>
+ 						<span class='test-status right pass'>pass</span>
+ 					</div>
+ 					<div class='test-content hide'>
+ <div class='test-time-info'>
+-	<span class='label start-time'>Jan 30, 2022 06:42:58 PM</span>
+-	<span class='label end-time'>Jan 30, 2022 06:43:15 PM</span>
+-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 16s+320ms</span>
++	<span class='label start-time'>Jan 31, 2022 01:12:48 PM</span>
++	<span class='label end-time'>Jan 31, 2022 01:13:00 PM</span>
++	<span class='label time-taken grey lighten-1 white-text'>0h 0m 12s+10ms</span>
+ </div>
+ <div class='test-steps'>
+ 	<table class='bordered table-results'>
+@@ -206,7 +206,7 @@
+ 		<tbody>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:42:58 PM</td>
++				<td class='timestamp'>1:12:48 PM</td>
+ 				<td class='step-details'>
+ 						Log in as a Store Manager
+ 					
+@@ -214,7 +214,7 @@
+ 			</tr>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:43:05 PM</td>
++				<td class='timestamp'>1:12:52 PM</td>
+ 				<td class='step-details'>
+ 						Navigate to --> Activities -> Calendar Events
+ 					
+@@ -222,7 +222,7 @@
+ 			</tr>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:43:14 PM</td>
++				<td class='timestamp'>1:12:59 PM</td>
+ 				<td class='step-details'>
+ 						Verify that page number is equals to "1"
+ 					
+@@ -230,7 +230,7 @@
+ 			</tr>
+ 			<tr class='log' status='pass'>
+ 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+-				<td class='timestamp'>6:43:15 PM</td>
++				<td class='timestamp'>1:13:00 PM</td>
+ 				<td class='step-details'>
+ 						PASS
+ 					
+@@ -244,14 +244,14 @@
+ 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+ 					<div class='test-heading'>
+ 						<span class='test-name'>Contact Info Verification</span>
+-						<span class='test-time'>Jan 30, 2022 06:43:21 PM</span>
++						<span class='test-time'>Jan 31, 2022 01:13:05 PM</span>
+ 						<span class='test-status right pass'>pass</span>
+ 					</div>
+ 					<div class='test-content hide'>
+ <div class='test-time-info'>
+-	<span class='label start-time'>Jan 30, 2022 06:43:21 PM</span>
+-	<span class='label end-time'>Jan 30, 2022 06:43:35 PM</span>
+-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 14s+204ms</span>
++	<span class='label start-time'>Jan 31, 2022 01:13:05 PM</span>
++	<span class='label end-time'>Jan 31, 2022 01:13:17 PM</span>
++	<span class='label time-taken grey lighten-1 white-text'>0h 0m 12s+21ms</span>
+ </div>
+ <div class='test-steps'>
+ 	<table class='bordered table-results'>
+@@ -265,7 +265,7 @@
+ 		<tbody>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:43:21 PM</td>
++				<td class='timestamp'>1:13:05 PM</td>
+ 				<td class='step-details'>
+ 						Log in as a Store Manager
+ 					
+@@ -273,7 +273,7 @@
+ 			</tr>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:43:27 PM</td>
++				<td class='timestamp'>1:13:10 PM</td>
+ 				<td class='step-details'>
+ 						Navigate to --> Activities -> Calendar Events
+ 					
+@@ -281,7 +281,7 @@
+ 			</tr>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:43:35 PM</td>
++				<td class='timestamp'>1:13:17 PM</td>
+ 				<td class='step-details'>
+ 						Verify that view per page number is equals to 25
+ 					
+@@ -289,7 +289,7 @@
+ 			</tr>
+ 			<tr class='log' status='pass'>
+ 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+-				<td class='timestamp'>6:43:35 PM</td>
++				<td class='timestamp'>1:13:17 PM</td>
+ 				<td class='step-details'>
+ 						PASS
+ 					
+@@ -303,14 +303,14 @@
+ 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='4'>
+ 					<div class='test-heading'>
+ 						<span class='test-name'>Contact Info Verification</span>
+-						<span class='test-time'>Jan 30, 2022 06:43:41 PM</span>
++						<span class='test-time'>Jan 31, 2022 01:13:23 PM</span>
+ 						<span class='test-status right pass'>pass</span>
+ 					</div>
+ 					<div class='test-content hide'>
+ <div class='test-time-info'>
+-	<span class='label start-time'>Jan 30, 2022 06:43:41 PM</span>
+-	<span class='label end-time'>Jan 30, 2022 06:44:11 PM</span>
+-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 30s+505ms</span>
++	<span class='label start-time'>Jan 31, 2022 01:13:23 PM</span>
++	<span class='label end-time'>Jan 31, 2022 01:13:51 PM</span>
++	<span class='label time-taken grey lighten-1 white-text'>0h 0m 27s+977ms</span>
+ </div>
+ <div class='test-steps'>
+ 	<table class='bordered table-results'>
+@@ -324,7 +324,7 @@
+ 		<tbody>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:43:41 PM</td>
++				<td class='timestamp'>1:13:23 PM</td>
+ 				<td class='step-details'>
+ 						Log in as a Store Manager
+ 					
+@@ -332,7 +332,7 @@
+ 			</tr>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:43:47 PM</td>
++				<td class='timestamp'>1:13:28 PM</td>
+ 				<td class='step-details'>
+ 						Navigate to --> Activities -> Calendar Events
+ 					
+@@ -340,7 +340,7 @@
+ 			</tr>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:43:55 PM</td>
++				<td class='timestamp'>1:13:35 PM</td>
+ 				<td class='step-details'>
+ 						Verify that number of calendar events (rows in the table) is equals to number of records
+ 					
+@@ -348,7 +348,7 @@
+ 			</tr>
+ 			<tr class='log' status='pass'>
+ 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+-				<td class='timestamp'>6:44:11 PM</td>
++				<td class='timestamp'>1:13:51 PM</td>
+ 				<td class='step-details'>
+ 						PASS
+ 					
+@@ -362,14 +362,14 @@
+ 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='5'>
+ 					<div class='test-heading'>
+ 						<span class='test-name'>Contact Info Verification</span>
+-						<span class='test-time'>Jan 30, 2022 06:44:19 PM</span>
++						<span class='test-time'>Jan 31, 2022 01:13:57 PM</span>
+ 						<span class='test-status right pass'>pass</span>
+ 					</div>
+ 					<div class='test-content hide'>
+ <div class='test-time-info'>
+-	<span class='label start-time'>Jan 30, 2022 06:44:19 PM</span>
+-	<span class='label end-time'>Jan 30, 2022 06:44:39 PM</span>
+-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 20s+561ms</span>
++	<span class='label start-time'>Jan 31, 2022 01:13:57 PM</span>
++	<span class='label end-time'>Jan 31, 2022 01:14:11 PM</span>
++	<span class='label time-taken grey lighten-1 white-text'>0h 0m 14s+681ms</span>
+ </div>
+ <div class='test-steps'>
+ 	<table class='bordered table-results'>
+@@ -383,7 +383,7 @@
+ 		<tbody>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:44:19 PM</td>
++				<td class='timestamp'>1:13:57 PM</td>
+ 				<td class='step-details'>
+ 						Log in as a Store Manager
+ 					
+@@ -391,7 +391,7 @@
+ 			</tr>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:44:29 PM</td>
++				<td class='timestamp'>1:14:02 PM</td>
+ 				<td class='step-details'>
+ 						Navigate to --> Activities -> Calendar Events
+ 					
+@@ -399,7 +399,7 @@
+ 			</tr>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:44:38 PM</td>
++				<td class='timestamp'>1:14:11 PM</td>
+ 				<td class='step-details'>
+ 						Verify that all calendar events were selected
+ 					
+@@ -407,7 +407,7 @@
+ 			</tr>
+ 			<tr class='log' status='pass'>
+ 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+-				<td class='timestamp'>6:44:39 PM</td>
++				<td class='timestamp'>1:14:11 PM</td>
+ 				<td class='step-details'>
+ 						PASS
+ 					
+@@ -421,14 +421,14 @@
+ 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='6'>
+ 					<div class='test-heading'>
+ 						<span class='test-name'>Contact Info Verification</span>
+-						<span class='test-time'>Jan 30, 2022 06:44:46 PM</span>
++						<span class='test-time'>Jan 31, 2022 01:14:17 PM</span>
+ 						<span class='test-status right pass'>pass</span>
+ 					</div>
+ 					<div class='test-content hide'>
+ <div class='test-time-info'>
+-	<span class='label start-time'>Jan 30, 2022 06:44:46 PM</span>
+-	<span class='label end-time'>Jan 30, 2022 06:45:12 PM</span>
+-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 26s+331ms</span>
++	<span class='label start-time'>Jan 31, 2022 01:14:17 PM</span>
++	<span class='label end-time'>Jan 31, 2022 01:14:38 PM</span>
++	<span class='label time-taken grey lighten-1 white-text'>0h 0m 21s+126ms</span>
+ </div>
+ <div class='test-steps'>
+ 	<table class='bordered table-results'>
+@@ -442,7 +442,7 @@
+ 		<tbody>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:44:46 PM</td>
++				<td class='timestamp'>1:14:17 PM</td>
+ 				<td class='step-details'>
+ 						Log in as a Store Manager
+ 					
+@@ -450,7 +450,7 @@
+ 			</tr>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:44:53 PM</td>
++				<td class='timestamp'>1:14:22 PM</td>
+ 				<td class='step-details'>
+ 						Navigate to --> Activities -> Calendar Events
+ 					
+@@ -458,7 +458,7 @@
+ 			</tr>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:45:02 PM</td>
++				<td class='timestamp'>1:14:28 PM</td>
+ 				<td class='step-details'>
+ 						Select 'Testers meeting'
+ 					
+@@ -466,7 +466,7 @@
+ 			</tr>
+ 			<tr class='log' status='info'>
+ 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+-				<td class='timestamp'>6:45:10 PM</td>
++				<td class='timestamp'>1:14:36 PM</td>
+ 				<td class='step-details'>
+ 						Verify that following data is displayed
+ 					
+@@ -474,7 +474,7 @@
+ 			</tr>
+ 			<tr class='log' status='pass'>
+ 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+-				<td class='timestamp'>6:45:12 PM</td>
++				<td class='timestamp'>1:14:38 PM</td>
+ 				<td class='step-details'>
+ 						PASS
+ 					
+@@ -525,19 +525,19 @@
+ 			<div class='col s2'>
+ 				<div class='card-panel r'>
+ 					Start
+-					<div class='panel-lead'>Jan 30, 2022 06:42:20 PM</div>
++					<div class='panel-lead'>Jan 31, 2022 01:12:18 PM</div>
+ 				</div>
+ 			</div>
+ 			<div class='col s2'>
+ 				<div class='card-panel r'>
+ 			 		End
+-			 		<div class='panel-lead'>Jan 30, 2022 06:45:14 PM</div>
++			 		<div class='panel-lead'>Jan 31, 2022 01:14:40 PM</div>
+ 				</div>
+ 			</div>
+ 			<div class='col s2'>
+ 				<div class='card-panel r'>
+ 					Time Taken
+-					<div class='panel-lead'>0h 2m 54s+283ms</div>
++					<div class='panel-lead'>0h 2m 22s+59ms</div>
+ 				</div>
+ 			</div>
+ 			<div class='col s4'>
+@@ -604,7 +604,7 @@
+ 		</script>
+ 		<script>
+ 			var timeline = {
+-			        "Contact Info Verification":17.46,"Contact Info Verification":16.32,"Contact Info Verification":14.204,"Contact Info Verification":30.505,"Contact Info Verification":20.561,"Contact Info Verification":26.331
++			        "Contact Info Verification":12.882,"Contact Info Verification":12.01,"Contact Info Verification":12.021,"Contact Info Verification":27.977,"Contact Info Verification":14.681,"Contact Info Verification":21.126
+ 			};
+ 		</script>
+ 		<script src='https://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0557c363-3211-4263-bb64-aab95f65751a\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"24Pz7PvaRqNIbNygGdnfJF8J8pB\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"foldersAlwaysOnTop\" value=\"false\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n    <option name=\"showVisibilityIcons\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/src/test/java/com/vytrack/pages\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\bilgi\\OneDrive\\Masaüstü\\Vytrack_Projects\\src\\test\\java\\com\\vytrack\\pages\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"com.vytrack.pages\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"TestNG.TestCases\">\r\n    <configuration name=\"TestCases\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Vytrack_Projects\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.vytrack.tests.vytrack_testcases.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.vytrack.tests\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.vytrack.tests.vytrack_testcases.TestCases\" />\r\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestCases.task01\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Vytrack_Projects\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.vytrack.tests.vytrack_testcases.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.vytrack.tests\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.vytrack.tests.vytrack_testcases.TestCases\" />\r\n      <option name=\"METHOD_NAME\" value=\"task01\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestCases.task03\" type=\"TestNG\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"Vytrack_Projects\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.vytrack.tests.vytrack_testcases.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"com.vytrack.tests\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.vytrack.tests.vytrack_testcases.TestCases\" />\r\n      <option name=\"METHOD_NAME\" value=\"task03\" />\r\n      <option name=\"TEST_OBJECT\" value=\"METHOD\" />\r\n      <properties />\r\n      <listeners />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"TestNG.TestCases\" />\r\n        <item itemvalue=\"TestNG.TestCases.task01\" />\r\n        <item itemvalue=\"TestNG.TestCases.task03\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0557c363-3211-4263-bb64-aab95f65751a\" name=\"Changes\" comment=\"\" />\r\n      <created>1643546843586</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1643546843586</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision daa89b09e1b2a7a3768de89ff06ca77291f14d8f)
++++ b/.idea/workspace.xml	(date 1643623927560)
+@@ -4,7 +4,14 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="0557c363-3211-4263-bb64-aab95f65751a" name="Changes" comment="" />
++    <list default="true" id="0557c363-3211-4263-bb64-aab95f65751a" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/tests/TestBase.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/tests/TestBase.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/tests/vytrack_testcases/TestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/tests/vytrack_testcases/TestCases.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -17,7 +24,11 @@
+       </list>
+     </option>
+   </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
+   <component name="ProjectId" id="24Pz7PvaRqNIbNygGdnfJF8J8pB" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="foldersAlwaysOnTop" value="false" />
+     <option name="showLibraryContents" value="true" />
+@@ -26,10 +37,12 @@
+   <component name="PropertiesComponent">
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/vytrack/pages" />
++    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+   </component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\Users\bilgi\OneDrive\Masaüstü\Vytrack_Projects" />
+       <recent name="C:\Users\bilgi\OneDrive\Masaüstü\Vytrack_Projects\src\test\java\com\vytrack\pages" />
+     </key>
+     <key name="CopyClassDialog.RECENTS_KEY">
+@@ -37,6 +50,16 @@
+     </key>
+   </component>
+   <component name="RunManager" selected="TestNG.TestCases">
++    <configuration name="C:/Users/bilgi/OneDrive/Masaüstü/Vytrack_Projects/vytrack_runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
++      <module name="Vytrack_Projects" />
++      <option name="SUITE_NAME" value="$PROJECT_DIR$/vytrack_runner.xml" />
++      <option name="TEST_OBJECT" value="SUITE" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <configuration name="TestCases" type="TestNG" temporary="true" nameIsGenerated="true">
+       <module name="Vytrack_Projects" />
+       <extension name="coverage">
+@@ -93,6 +116,7 @@
+     <recent_temporary>
+       <list>
+         <item itemvalue="TestNG.TestCases" />
++        <item itemvalue="TestNG.C:/Users/bilgi/OneDrive/Masaüstü/Vytrack_Projects/vytrack_runner.xml" />
+         <item itemvalue="TestNG.TestCases.task01" />
+         <item itemvalue="TestNG.TestCases.task03" />
+       </list>
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1643557944778)
++++ b/.idea/vcs.xml	(date 1643557944778)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file

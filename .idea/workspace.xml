@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0557c363-3211-4263-bb64-aab95f65751a" name="Changes" comment="" />
+    <list default="true" id="0557c363-3211-4263-bb64-aab95f65751a" name="Changes" comment="minor bug fixes 2">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2022_1_20_PM_[Changes]/TestBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2022_1_20_PM_[Changes]/TestCases.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2022_1_20_PM_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2022_1_20_PM__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vytrack_runner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/vytrack/tests/vytrack_testcases/TestCases.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/vytrack/tests/vytrack_testcases/TestCases.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +28,12 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="24Pz7PvaRqNIbNygGdnfJF8J8pB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="foldersAlwaysOnTop" value="false" />
     <option name="showLibraryContents" value="true" />
@@ -26,10 +42,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/vytrack/pages" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bilgi\OneDrive\Masaüstü\Vytrack_Projects" />
       <recent name="C:\Users\bilgi\OneDrive\Masaüstü\Vytrack_Projects\src\test\java\com\vytrack\pages" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -37,6 +55,16 @@
     </key>
   </component>
   <component name="RunManager" selected="TestNG.TestCases">
+    <configuration name="C:/Users/bilgi/OneDrive/Masaüstü/Vytrack_Projects/vytrack_runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Vytrack_Projects" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/vytrack_runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCases" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Vytrack_Projects" />
       <extension name="coverage">
@@ -93,6 +121,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.TestCases" />
+        <item itemvalue="TestNG.C:/Users/bilgi/OneDrive/Masaüstü/Vytrack_Projects/vytrack_runner.xml" />
         <item itemvalue="TestNG.TestCases.task01" />
         <item itemvalue="TestNG.TestCases.task03" />
       </list>
@@ -107,6 +136,30 @@
       <option name="presentableId" value="Default" />
       <updated>1643546843586</updated>
     </task>
+    <task id="LOCAL-00001" summary="minor bug fixes">
+      <created>1643624315832</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643624315832</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="minor bug fixes" />
+    <MESSAGE value="minor bug fixes 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor bug fixes 2" />
   </component>
 </project>
