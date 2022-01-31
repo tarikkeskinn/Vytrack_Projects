@@ -71,12 +71,7 @@ public class TestBase {
         Pages.testInitialize();
     }
 
-    @AfterTest
-    public void tearDownTest() {
-        //this is when the report is actually created
-        report.flush();
 
-    }
 
     //ITestResult class describes the result of a test in TestNG
     @AfterMethod
@@ -98,6 +93,13 @@ public class TestBase {
         }
         Thread.sleep(2000);
         Driver.closeDriver();
+    }
+
+    @AfterTest
+    public void tearDownTest() {
+        //this is when the report is actually created
+        report.flush();
+
     }
 
 
